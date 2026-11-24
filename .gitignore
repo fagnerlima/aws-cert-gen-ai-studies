@@ -1,0 +1,18 @@
+# Diretórios e arquivos locais do OpenTofu
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Overrides locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variáveis locais (podem ter dados pessoais); o exemplo é versionado
+*.tfvars
+*.tfvars.json
+!*.tfvars.example

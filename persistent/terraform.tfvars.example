@@ -1,0 +1,3 @@
+# Copie para terraform.tfvars (não versionado) só se quiser mudar os padrões.
+# region              = "us-east-1"
+# bucket_name         = "sundog-franks-book-fl"
